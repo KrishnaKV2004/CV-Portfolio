@@ -60,7 +60,7 @@ const Header = ({darkMode, toggleTheme}) =>
                     <h1 className="text-baes font-semibold md:text-2xl">EDUCATION</h1>
                     <ul>
                         <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
-                            <span className="font-semibold md:text-lg">Computer Science</span>
+                            <span className="font-semibold md:text-lg">B Tech CSE</span>
                             <span className="font-light">Graphic Era University</span>
                             <span className="text-sm text-gray-400">2022-26</span>
                         </li>
@@ -99,7 +99,6 @@ const Header = ({darkMode, toggleTheme}) =>
                             <span className="rounded-full bg-black text-white p-3 text-center dark:bg-white dark:text-black">Github</span>
                             <span className="rounded-full bg-black text-white p-3 text-center dark:bg-white dark:text-black">Docker</span>
                             <span className="rounded-full bg-black text-white p-3 text-center dark:bg-white dark:text-black">Mongo DB</span>
-                            <span className="rounded-full bg-black text-white p-3 text-center dark:bg-white dark:text-black">My SQL</span>
                         </div>
                     </div>
                 </div>

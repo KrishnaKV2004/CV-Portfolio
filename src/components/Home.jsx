@@ -3,6 +3,7 @@ const Home = () =>
     return (
         <div className="min-h-screen flex-[3] transition-all duration-500 dark:bg-black dark:text-white">
             <main className="flex max-w-[1000px] flex-col gap-10 p-5 md:mx-10 md:py-14">
+
                 <div className="space-y-5">
                     <h1 className="text-2xl font-bold md:text-4xl">About Me</h1>
                     <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
@@ -14,6 +15,8 @@ const Home = () =>
                         that have a positive impact and help drive progress. Always eager to grow and connect with like-minded professionals.
                     </p>
                 </div>
+
+                <hr className="border-gray-300 dark:border-gray-700" />
 
                 <div className="space-y-10">
                     <h1 className="text-2xl font-bold md:text-4xl">Experience</h1>
@@ -47,6 +50,8 @@ const Home = () =>
                         </ul>
                     </div>
                 </div>
+
+                <hr className="border-gray-300 dark:border-gray-700" />
 
                 <div className="max-w-3xl space-y-8">
                     <h1 className="text-2xl font-bold md:text-4xl">Certifications</h1>
@@ -89,6 +94,8 @@ const Home = () =>
                     </div>
                 </div>
 
+                <hr className="border-gray-300 dark:border-gray-700" />
+
                 <div className="space-y-10">
                     <h1 className="text-2xl font-bold md:text-4xl">References</h1>
                     <div className="flex flex-wrap gap-10">
@@ -100,6 +107,7 @@ const Home = () =>
                         </div>
                     </div>
                 </div>
+
             </main>
         </div>
     )
