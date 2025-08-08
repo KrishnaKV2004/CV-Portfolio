@@ -58,7 +58,7 @@ const Header = ({darkMode, toggleTheme}) =>
 
                 <div className="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700">
                     <h1 className="text-baes font-semibold md:text-2xl">EDUCATION</h1>
-                    <ul className="">
+                    <ul>
                         <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
                             <span className="font-semibold md:text-lg">Computer Science</span>
                             <span className="font-light">Graphic Era University</span>
