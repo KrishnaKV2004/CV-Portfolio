@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: 'Inter';
+/* Global font */
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Set background colors and full size */
+html, body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  /* Enable smooth scrolling globally */
+  scroll-behavior: smooth;
+}
+
+/* Dark mode background */
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: black;
+  }
 }

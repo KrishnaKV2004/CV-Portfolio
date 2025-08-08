@@ -156,10 +156,10 @@ const Header = ({darkMode, toggleTheme}) => {
         {/* Languages */}
         <motion.div className="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700" variants={itemVariants}>
           <h1 className="text-base font-semibold md:text-2xl">LANGUAGES</h1>
-          <ul className="flex list-disc flex-wrap gap-12 md:text-lg">
-            <li>English</li>
-            <li>Hindi</li>
-            <li>Japanese</li>
+          <ul className="flex flex-wrap list-disc pl-5 md:text-lg gap-x-4 gap-y-2">
+            <li className="mr-4 md:mr-6">English</li>
+            <li className="mr-4 md:mr-6">Hindi</li>
+            <li className="mr-4 md:mr-6">Japanese</li>
           </ul>
         </motion.div>
 
