@@ -20,19 +20,6 @@ const Home = () =>
                     <div className="flex flex-col lg:flex-row lg:gap-20">
                         <ul>
                             <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
-                                <span className="text-lg font-semibold">Machine Learning Intern</span>
-                                <span className="font-light">Xtracap</span>
-                                <span className="text-sm text-gray-400">2025</span>
-                                <p className="text-sm text-gray-600 dark:text-gray-400">
-                                    Currently undertaking a 6-month Machine Learning internship at Xtracap, 
-                                    where I am gaining practical, hands-on experience in data preprocessing, 
-                                    model development, and performance evaluation. This role is helping me 
-                                    bridge academic knowledge with real-world applications by working on 
-                                    live projects, collaborating with professionals, and learning industry-standard 
-                                    tools and workflows.
-                                </p>
-                            </li>
-                            <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
                                 <span className="text-lg font-semibold">Machine Learning Enthusiast</span>
                                 <span className="font-light">Machine Learning & Deep Learning Concepts</span>
                                 <span className="text-sm text-gray-400">2023-Present</span>
